@@ -1,0 +1,59 @@
+
+
+table {
+			float: left;
+			margin: auto;
+			border: 1px solid black;
+
+}
+td {
+		width:14px;
+		height:14px;
+}
+
+/*
+td h/w is 14px
+*/
+
+.blacksquare {
+		background-color: brown;
+		border: 3px solid brown;
+}
+.vertical {
+		background-color: tan;
+		border: 1px solid tan;
+}
+		/*at this point the two below should not be needed but    14
+		will continue to be used because they're declared in the html file*/
+.vertical {
+		border-left: 1px solid tan;
+		border-right: 1px solid tan; 
+}
+
+.horizontal {
+		border-top: 1px solid tan;
+		border-bottom: 1px solid tan;
+}
+
+.redpiece {
+	position: relative;
+	width:12px;
+	height:12px;
+	background: red;
+	border: 1px solid maroon;
+	border-radius: 50px;
+	box-shadow: 1px 1px;
+}
+
+/*pieces w/h is 12px
+pieces border radius is 50px  */
+
+.blackpiece {
+	position: relative;
+	width:12px;
+	height:12px;
+	background: rgb(1,1,1,.7);
+	border: 1px solid rgb(1,1,1,.7);
+	border-radius: 50px;
+	box-shadow: 1px 1px;
+}

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+	<header>
+		<title>Chess game</title>
+		<link rel="stylesheet" type="text/css" href="chess.css">
+	
+	</header>
+	<body>
+		<table>
+			<tbody>
+			<tr>
+				<td class= 'vertical horizontal sq'>
+					<div class='rook redpiece piece' id='rp1'></div>
+				</td>
+
+				<td class = 'blacksquare sq'>
+						<div class='knight redpiece piece' id='rp2'></div>
+				</td>
+
+				<td class = 'vertical horizontal sq'>
+						<div class='bishop redpiece piece' id='rp3'></div>
+				</td>
+
+				<td class = 'blacksquare sq'>
+						<div class='queen redpiece piece' id='rp4'></div>
+				</td>
+
+				<td class = 'vertical horizontal sq'>
+						<div class='king redpiece piece' id='rp5'></div>
+				</td>
+		
+				<td class='blacksquare sq'>
+						<div class='bishop redpiece piece' id='rp6'></div>
+				</td>
+
+				<td class='vertical horizontal sq'>
+					<div class='knight redpiece piece' id='rp7'></div>
+				</td>
+		
+				<td class='blacksquare sq'>
+						<div class='rook redpiece piece' id='rp8'></div>
+				</td>
+
+			</tr>
+
+			<tr>
+				
+				<td class='blacksquare sq'>
+						<div class='pawn redpiece piece' id='rp9'></div>
+				</td>
+
+				<td class='vertical horizontal sq'>
+						<div class='pawn redpiece piece' id='rp10'></div>
+				</td>
+			
+				<td class = 'blacksquare sq'>
+						<div class='pawn redpiece piece' id='rp11'></div>
+				</td>
+
+				<td class = 'vertical horizontal sq'>
+					<div class='pawn redpiece piece' id='rp12'></div>
+				</td>
+
+				<td class = 'blacksquare sq'>
+						<div class='pawn redpiece piece' id='rp13'></div>
+				</td>
+
+				<td class = 'vertical horizontal sq'>
+						<div class='pawn redpiece piece' id='rp14'></div>
+				</td>
+
+				<td class = 'blacksquare sq'>
+						<div class='pawn redpiece piece' id='rp15'></div>
+				</td>
+		
+				<td class='vertical horizontal sq'>
+						<div class='pawn redpiece piece' id='rp16' draggable='true' ondragstart="event.dataTransfer.setData('text/plain',null)"></div>
+				</td>
+			</tr>
+
+
+			<tr>
+
+				<td class = 'vertical horizontal sq'></td>
+		
+				<td class='blacksquare sq'></td>
+
+				<td class = 'vertical horizontal sq'></td>
+
+				<td class='blacksquare sq'></td>
+
+				<td class = 'vertical horizontal sq'></td>
+		
+				<td class='blacksquare sq'></td>
+
+				<td class = 'vertical horizontal sq'></td>
+
+				<td class='blacksquare sq'></td>
+
+			</tr>
+
+				
+			<tr>
+				<td class='blacksquare sq'></td>
+
+				<td class = 'vertical horizontal sq'></td>
+			
+				<td class='blacksquare sq'></td>
+		
+				<td class='vertical horizontal sq'></td>
+
+				<td class='blacksquare sq'></td>
+
+				<td class='vertical horizontal sq'></td>
+				
+				<td class='blacksquare sq'></td>
+		
+				<td class='vertical horizontal sq'></td>
+
+			</tr>
+
+			<tr>
+
+				<td class = 'vertical horizontal sq'></td>
+		
+				<td class='blacksquare sq'></td>
+
+				<td class = 'vertical horizontal sq'></td>
+
+				<td class='blacksquare sq'></td>
+
+				<td class = 'vertical horizontal sq'></td>
+		
+				<td class='blacksquare sq'></td>
+
+				<td class = 'vertical horizontal sq'></td>
+
+				<td class='blacksquare sq'></td>
+
+			</tr>
+
+			<tr>
+				<td class='blacksquare sq'></td>
+
+				<td class = 'vertical horizontal sq'></td>
+			
+				<td class='blacksquare sq'></td>
+		
+				<td class='vertical horizontal sq'></td>
+
+				<td class='blacksquare sq'></td>
+
+				<td class='vertical horizontal sq'></td>
+				
+				<td class='blacksquare sq'></td>
+		
+				<td class='vertical horizontal sq'></td>
+
+			</tr>
+			
+
+
+
+			<tr>
+				<td class = 'vertical horizontal sq'>
+					<div class='pawn blackpiece piece' id='bp1' draggable='true' ondragstart="event.dataTransfer.setData('text/plain',null)"></div>
+				</td>
+
+				<td class = 'blacksquare sq'>
+					<div class='pawn blackpiece piece' id='bp2' draggable='true' ondragstart="event.dataTransfer.setData('text/plain',null)"></div>
+				</td>
+
+				<td class = 'vertical horizontal sq'>
+					<div class='pawn blackpiece piece' id='bp3' draggable='true' ondragstart="event.dataTransfer.setData('text/plain',null)"></div>
+				</td>
+
+				<td class = 'blacksquare sq'>
+					<div class='pawn blackpiece piece' id='bp4' draggable='true' ondragstart="event.dataTransfer.setData('text/plain',null)"></div>
+				</td>
+ 
+				<td class = 'vertical horizontal sq'>
+					<div class='pawn blackpiece piece' id='bp5' draggable='true' ondragstart="event.dataTransfer.setData('text/plain',null)"></div>
+			 	</td>
+		
+				<td class='blacksquare sq'>
+					<div class='pawn blackpiece piece' id='bp6' draggable='true' ondragstart="event.dataTransfer.setData('text/plain',null)"></div>
+				</td>
+
+
+				<td class='vertical horizontal sq'>
+					<div class='pawn blackpiece piece' id='bp7' draggable='true' ondragstart="event.dataTransfer.setData('text/plain',null)"></div>
+				</td>
+		
+				<td class='blacksquare sq'>
+					<div class='pawn blackpiece piece' id='bp8' draggable='true' ondragstart="event.dataTransfer.setData('text/plain',null)"></div>
+				</td>
+
+			</tr>
+
+			<tr>
+
+				<td class='blacksquare sq'>
+					<div class='rook blackpiece piece' id='bp9' draggable='true' ondragstart="event.dataTransfer.setData('text/plain',null)"></div>
+				</td>
+
+				<td class='vertical horizontal sq'>
+					<div class='knight blackpiece piece' id='bp10' draggable='true' ondragstart="event.dataTransfer.setData('text/plain',null)"></div>
+				</td>
+			
+				<td class = 'blacksquare sq'>
+					<div class='bishop blackpiece piece' id='bp11' draggable='true' ondragstart="event.dataTransfer.setData('text/plain',null)"></div>
+				</td>
+
+				<td class = 'vertical horizontal sq'>
+					<div class='queen blackpiece piece' id='bp12' draggable='true' ondragstart="event.dataTransfer.setData('text/plain',null)"></div>
+				</td>
+
+				<td class = 'blacksquare sq'>
+					<div class='king blackpiece piece' id='bp13' draggable='true' ondragstart="event.dataTransfer.setData('text/plain',null)"></div>
+				</td>
+
+				<td class = 'vertical horizontal sq'>
+					<div class='bishop blackpiece piece' id='bp14' draggable='true' ondragstart="event.dataTransfer.setData('text/plain',null)"></div>
+				</td>
+
+				<td class = 'blacksquare sq'>
+					<div class='knight blackpiece piece' id='bp15' draggable='true' ondragstart="event.dataTransfer.setData('text/plain',null)"></div>
+			 	</td>
+		
+				<td class='vertical horizontal sq'>
+					<div class='rook blackpiece piece' id='bp16' draggable='true' ondragstart="event.dataTransfer.setData('text/plain',null)"></div>
+				</td>
+
+			</tr>
+
+
+			</tbody>
+
+
+			<table>
+			<tbody>
+				<tr>
+					<td class = "redchecked"></td>
+					<td class = "redchecked"></td>
+					<td class = "redchecked"></td>
+					<td class = "redchecked"></td>
+				</tr>
+				<tr>
+					<td class = "redchecked"></td>
+					<td class = "redchecked"></td>
+					<td class = "redchecked"></td>
+					<td class = "redchecked"></td>
+				</tr>
+				<tr>
+					<td class = "redchecked"></td>
+					<td class = "redchecked"></td>
+					<td class = "redchecked"></td>
+					<td class = "redchecked"></td>
+				</tr>
+				<tr>
+					<td class = "redchecked"></td>
+					<td class = "redchecked"></td>
+					<td class = "redchecked"></td>
+					<td class = "redchecked"></td>
+				</tr>
+			</tbody>
+
+			<tbody>
+				<tr>
+					<td class = "blackchecked"></td>
+					<td class = "blackchecked"></td>
+					<td class = "blackchecked"></td>
+					<td class = "blackchecked"></td>
+				</tr>
+				<tr>
+					<td class = "blackchecked"></td>
+					<td class = "blackchecked"></td>
+					<td class = "blackchecked"></td>
+					<td class = "blackchecked"></td>
+				</tr>
+				<tr>
+					<td class = "blackchecked"></td>
+					<td class = "blackchecked"></td>
+					<td class = "blackchecked"></td>
+					<td class = "blackchecked"></td>
+				</tr>
+				<tr>
+					<td class = "blackchecked"></td>
+					<td class = "blackchecked"></td>
+					<td class = "blackchecked"></td>
+					<td class = "blackchecked"></td>
+				</tr>
+
+			</tbody>
+
+
+		</table>
+		<script type="text/javascript" src="chess.js"></script>
+	</body>
+
+
+</html>
